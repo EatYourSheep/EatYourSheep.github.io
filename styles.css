@@ -4,6 +4,12 @@ body, html {
     overflow: hidden;
 }
 
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .text {
     top: 50%;
     left: 50%;
