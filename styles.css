@@ -1,7 +1,21 @@
 body, html {
     background-color: black;
     height: 100%;
-    overflow: hidden;
+    
+}
+
+.image {
+    background-image: url("EYS_BG.png");
+
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+
+    height: 100%;
+    width: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .font {
@@ -17,10 +31,9 @@ body, html {
     text-align: center;
     transform: translate(-50%, -50%);
     background-color: rgba(0,0,0);
-    background-color: rgba(0,0,0, .2);
-    color: white;
+    background-color: rgba(0,0,0, .5);
+    color: rgb(255, 56, 56);
     margin: 30px;
     padding: 30px;
     width: 80%;
-    border: 10px dashed rgb(0,0,0, 0.4);
 }
